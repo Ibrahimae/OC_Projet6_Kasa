@@ -23,9 +23,8 @@ $bg-img-about: url("../assets/img/aboutImg.jpg");
 
 * {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
-  max-width: 1440px;
 }
 
 body {
@@ -42,4 +41,15 @@ a,
 a:visited {
   color: $color-1;
   text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
 }
